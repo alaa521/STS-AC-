@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "DroidArabicKufiRegular";
+    background-color: #F7F7F7;
+}
+.logo{
+  height: 10vh;
+  width: 5vw;
+}
+.hero-section{
+  display: flex;
+  justify-content: space-around;
+  line-height: 15px;
+}
+.whatsapp-header{
+  height:4vh;
+  align-self: center;
+}
+.contact-header{
+  display: flex;
+  width: 10vw;
+  background-color: #FADF70;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.contact-header1{
+  display: flex;
+  width: 10vw;
+  background-color: #FADF70;
+  justify-content: space-around;
+  border-radius: 5px;
+
+}
+.nav-top-left{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 14vw;
+}
+.nav-top-center{
+  padding-top: 1.3rem;
+}
+.nav-top{
+  padding-top: 7px;
+}
+      
+.nav-top-center ul {      
+  display: flex;
+  text-align: center;
+  color: #1d009c;
+  font-size: 1.5vw;
+  list-style: none;
+  justify-content: space-between;
+  width: 42vw;
+}
+/* End nav section */
+
+
+
+/* Start hero section */
+
+    .start-section {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: aliceblue;
+    }
+    
+    .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(images/header-background.png);
+      background-size: cover;
+    }
+    .background-image2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:#2B4F66;
+      opacity: 0.3;
+      background-size: cover;
+      z-index: 1;
+    }
+    
+    .content {
+      position: relative;
+      z-index: 2;
+      text-align: -webkit-center;
+    }
+ 
+    #h{
+      color: #FADF70;
+      font-size: vw;
+    }
+   
+      .contact-us {
+        background-color: #FADF70;
+        color: #1d009c;
+        padding:1vw;
+        border: none;
+       font-style:normal;
+        font-size: 1vw ;
+        
+      }
+    #h1{
+      color: #1d009c;
+      font: bold;
+      font-size: 2vw;
+    }
+   #p1{
+    font-size: 20px;
+    color:#1d009c;
+   }
+
+
+     /* End header section */
+  
+
+
+
+     /* Start About us section */
+     #About-section{
+      margin-top: 8rem;
+
+     }
+     #about-image1 {
+      width: 37.666667%
+     }
+     #about-image4 {
+      width: 37.666667%
+     }
+     #about-image2{
+      height: 40vh;
+     }
+     #img-about2{
+      height: 40vh;
+      width: 25vw;
+      border-radius: 3px;
+     }
+     #img-about1{
+      height: 40vh;
+      width: 14.7vw;
+
+     }
+     #about-image3{
+      height: 40vh;
+      width: 26vw;
+     }
+
+     .about-titel{
+      display: flex;
+      justify-content: space-between;
+      width: 10.3vw;
+     }
+     .content-about{
+      text-align: justify;
+     }
+     .icon-about{
+      height: 6vh;
+     }
+     
+
+
+
+
+  /* Servises section   */
+
+  .Servises-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 7em;
+  }
+  .Servises-sec .col .card .card-img-top{
+    width: 7vw;
+  }
+  .Servises-sec .col .card {
+    --bs-card-spacer-y: 1rem;
+    border: solid 16px #fefbef;
+    align-items: center;
+    padding-top: 20px;
+  }
+ 
+  .card .card-body .card-text{
+    text-align: center;
+    font-size: 13px;
+  }
+  .card-title{
+    text-align: center;
+  }
+
+
+  .work-title-p{
+    text-align: center;
+  }
+
+
+
+  /* WOrk */
+
+  .translate-middle {
+    transform: translate(-50%,-70%)!important;
+    width: 22vw;
+    background-color: #2b4f66;
+}
+.Work-body{
+  border: solid 16px #fefbef;
+  }
+
+
+
+  /* Contact-section */
+  .Contact-section{
+    background-color: #fffef8;
+    height: 75vh;
+    overflow: hidden;
+  }
+  .circile1{
+    border-radius: 50%;
+    border: solid 15px red;
+    color: #2B4F66;
+  }
+
+  .contact-img1{
+    width: 55vw;
+    position: absolute;
+    top: -86px;
+    right: -230px;
+  }
+  .contact-img2{
+    width: 50vw;
+    position: absolute;
+    top: -56px;
+    right: -195px;
+    z-index: 1;
+
+  }
+  .contact-img3{
+    width: 35vw;
+    position: absolute;
+    right: -90px;
+    z-index: 1;
+    top: -70px;
+
+  }
