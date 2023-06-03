@@ -4,6 +4,9 @@ body{
     font-family: "DroidArabicKufiRegular";
     background-color: #F7F7F7;
 }
+p{
+  margin-bottom: 0;
+}
 .logo{
   height: 10vh;
   width: 5vw;
@@ -23,6 +26,8 @@ body{
   background-color: #FADF70;
   justify-content: space-around;
   border-radius: 5px;
+  height: 6vh;
+  align-items: center;
 }
 
 .contact-header1{
@@ -249,5 +254,126 @@ body{
     right: -90px;
     z-index: 1;
     top: -70px;
+
+  }
+
+  .circle{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    border: solid 1px #2B4F66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-content{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 38vh;
+    align-items: flex-start;
+    padding-top: 5em;
+  }
+  .p-contact{
+    font-size: 13px;
+  }
+  .address-email{
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    width: 25vw;
+    justify-content: space-between;
+  }
+  .address,.email,.phone{
+    display: flex;
+    width: 11vw;
+    justify-content: space-between;
+  }
+  .content-details{
+    display: flex;
+    flex-direction: column;
+    width: 7vw;
+    align-items: flex-start;
+
+  }
+
+
+
+  /* Footer */
+  footer{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .footer-one{
+    background-color: #2B4F66;
+    height: 50vh;
+    width: 85vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .footer-two{
+    background-color: #FADF70;
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+  }
+  .p-footer{
+    width: 22vw;
+    color: #F7F7F7;
+  }
+  .h3-footer{
+    color: #FF8B00;
+  }
+  footer a {
+    text-decoration: none;
+    color: #F7F7F7;
+  }
+  .nav-footer{
+    display: flex;
+    flex-direction: column;
+    height: 17vh;
+    justify-content: space-between;
+  }
+  footer a:hover {
+    color: #FADF70;
+  }
+  .face{
+    height: 7vh;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: #456479;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .face a{
+    color: #F7F7F7 ;
+  }
+  .footer-social{
+    display: flex;
+    justify-content: center;
+    width: 181vh;
+  }
+  .container-social{
+    display: flex;
+    width: 16vw;
+    justify-content: space-around;
 
   }
